@@ -10,16 +10,15 @@
         text-align: center;
         padding: 20px;
         display: flex;
-        flex-direction: column;}
+        flex-direction: column;
+        margin-right: 100px;}
 
 .classlogo {background-color: yellow;
         color: white;
         text-align: center;
         padding: 20px;
-        left: 100px;
         width: 50px;
         height: 50px;
-        margin-right: 900px;
     }
 
 .classcontent {background-color: green;
@@ -34,10 +33,8 @@
                 color: black;
                 padding: 20px;
                 text-align: left;
-                vertical-align: 20px;
                 width: 150px;
-                height: 30px;
-                left: 100px;}
+                height: 30px;}
 
 .classfooter {background-color: orange;
             color: white;
@@ -62,6 +59,5 @@
 .classauxiliar {display: flex;
                 flex-direction: row;}
 
-.classauxiliar2 {display: flex;
-                flex-direction: row;
-                flex: auto;}
+.classauxiliar2 {display: inline-flex;
+                gap: 500px;}
