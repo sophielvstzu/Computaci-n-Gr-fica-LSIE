@@ -1,0 +1,67 @@
+.classcontenedor {background-color: blue;
+        color: black;
+        text-align: center;
+        }
+
+.classheader {background-color: gray;
+        margin: 0px;
+        color: white;
+        top: 100px;
+        text-align: center;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;}
+
+.classlogo {background-color: yellow;
+        color: white;
+        text-align: center;
+        padding: 20px;
+        left: 100px;
+        width: 50px;
+        height: 50px;
+        margin-right: 900px;
+    }
+
+.classcontent {background-color: green;
+        color: white;
+        text-align: center;
+        width: 1000px;
+        height: 500px;
+        margin: 30px;
+        }
+
+.classbuscador {background-color: white;
+                color: black;
+                padding: 20px;
+                text-align: left;
+                vertical-align: 20px;
+                width: 150px;
+                height: 30px;
+                left: 100px;}
+
+.classfooter {background-color: orange;
+            color: white;
+            display: inline-flex;
+            gap: 300px;}
+
+.classinsidefooter {background-color: gray;
+                    color: white;
+                    text-align: center;
+                    width: 100px;
+                    height: 80px;
+                    display: inline-block;
+                    margin-right: 40px;
+                    margin: 20px;}
+
+.classsidebar {background-color: gray;
+                color: white;
+                width: 300px;
+                height: 500px;
+                margin: 30px;}
+
+.classauxiliar {display: flex;
+                flex-direction: row;}
+
+.classauxiliar2 {display: flex;
+                flex-direction: row;
+                flex: auto;}
