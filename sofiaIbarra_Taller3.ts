@@ -149,8 +149,8 @@ texto = null
 
 let color: "rojo" | "verde" | "amarillo" = "amarillo"
 
-let valor: any = 10
-valor.toUpperCase()
+let valor: string = "hola"
+valor = valor.toUpperCase()
 
 let version: number = 1.0
 version = 2.0

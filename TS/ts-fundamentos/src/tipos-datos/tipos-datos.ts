@@ -1,27 +1,24 @@
-let myVariable: string = 'miNombre'
+// let myVariable: string = 'miNombre'
 
-let multipleData: string | number | boolean = 'miCadena'
+// let multipleData: string | number | boolean = 'miCadena'
 
-multipleData = true
+// multipleData = true
 
-let otherVariable: any = false
-
-
-console.log('hola mundo')
-console.log(myVariable, multipleData, otherVariable)
-
-//ARREGLO
-
-let arregloHabilidades: string [] = ['Golpear', 'Correr', 'Saltar']
-
-console.log(arregloHabilidades)
-console.table(arregloHabilidades)
-
-let otherArrayHabilidades: (string | boolean | number) [] = ['Golpear', 'Correr', 'Saltar', false, 120]
-console.table(otherArrayHabilidades)
+// let otherVariable: any = false
 
 
-//export();
+// console.log('hola mundo')
+// console.log(myVariable, multipleData, otherVariable)
+
+// //ARREGLO
+
+// let arregloHabilidades: string [] = ['Golpear', 'Correr', 'Saltar']
+
+// console.log(arregloHabilidades)
+// console.table(arregloHabilidades)
+
+// let otherArrayHabilidades: (string | boolean | number) [] = ['Golpear', 'Correr', 'Saltar', false, 120]
+// console.table(otherArrayHabilidades)
 
 //1
 interface Estudiante{
@@ -119,7 +116,7 @@ interface Usuario{
     username: string,
     password: string,
     roles: string [],
-    login(): void
+    login: ()=> void
 }
 
 const usuario: Usuario = {
@@ -135,8 +132,55 @@ console.log(usuario.login())
 
 //PARTE 2.
 
-// let myValue: number | string | boolean = 10;
+let myValue: number | string | boolean = 10;
 
-// let myBoolean: Boolean = true;
+let myBoolean: Boolean = true;
 
-// let healthPoints:
+let healthPoints: number = 150;
+
+let otherMultipleDataType: number | boolean | "myTag" = "myTag";
+
+let myVar: number | boolean | string | {}
+
+myVar = 123
+myVar = true
+myVar = 'texto'
+myVar = {}
+
+const myConstant: number = 1;
+
+let inferedDataType: string | number = "Texto inicial"
+inferedDataType = 123
+
+const isActive: number = 1
+
+let mixed: boolean | string = true
+
+let whilee: string = "Hola"
+
+let myNumber: number = 10
+
+let numeros: number[] = [1, 2, 3]
+
+let tupla: [string, number] = ["Hola", 2]
+
+let otraTupla: [string, boolean] = ["hola", true]
+
+let texto: any = "hola mundo"
+texto = null
+
+let color: "rojo" | "verde" | "amarillo" = "amarillo"
+
+let valor: string = "holaaaaaaaaaaa"
+valor = valor.toUpperCase()
+console.log(valor)
+
+let version: number = 1.0
+version = 2.0
+
+let persona: {nombre: string, apellido?: string} = {nombre: "Ana"}
+persona.apellido = "Ruiz"
+
+let edad: number = 20
+
+
