@@ -135,8 +135,8 @@ console.log(usuario.login())
 
 //PARTE 2.
 
-let myValue: number | string | boolean = 10;
+// let myValue: number | string | boolean = 10;
 
-let myBoolean: Boolean = true;
+// let myBoolean: Boolean = true;
 
-let healthPoints:
+// let healthPoints:
