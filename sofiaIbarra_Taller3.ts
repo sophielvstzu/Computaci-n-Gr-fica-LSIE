@@ -144,8 +144,8 @@ let tupla: [string, number] = ["Hola", 2]
 
 let otraTupla: [string, boolean] = ["hola", true]
 
-let texto = "hola mundo"
-//texto = null
+let texto: any = "hola mundo"
+texto = null
 
 let color: "rojo" | "verde" | "amarillo" = "amarillo"
 
@@ -155,8 +155,9 @@ valor.toUpperCase()
 let version: number = 1.0
 version = 2.0
 
-let persona: {nombre: string, apellido: string} = {nombre: "Ana"}
+let persona: {nombre: string, apellido?: string} = {nombre: "Ana"}
 persona.apellido = "Ruiz"
 
+let edad: number = 20
 
 
