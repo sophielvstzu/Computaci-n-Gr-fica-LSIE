@@ -94,7 +94,7 @@ interface Usuario{
     username: string,
     password: string,
     roles: string [],
-    login(): void
+    login: ()=> void
 }
 
 const usuario: Usuario = {
@@ -114,4 +114,50 @@ let myValue: number | string | boolean = 10;
 
 let myBoolean: Boolean = true;
 
-let healthPoints:
+let healthPoints: number = 150;
+
+let otherMultipleDataType: number | boolean | "myTag" = "myTag";
+
+let myVar: number | boolean | string | {}
+
+myVar = 123
+myVar = true
+myVar = 'texto'
+myVar = {}
+
+const myConstant: number = 1;
+
+let inferedDataType: string | number = "Texto inicial"
+inferedDataType = 123
+
+const isActive: number = 1
+
+let mixed: boolean | string = true
+
+let whilee: string = "Hola"
+
+let myNumber: number = 10
+
+let numeros: number[] = [1, 2, 3]
+
+let tupla: [string, number] = ["Hola", 2]
+
+let otraTupla: [string, boolean] = ["hola", true]
+
+let texto: any = "hola mundo"
+texto = null
+
+let color: "rojo" | "verde" | "amarillo" = "amarillo"
+
+let valor: string = "hola"
+valor = valor.toUpperCase()
+
+let version: number = 1.0
+version = 2.0
+
+let persona: {nombre: string, apellido?: string} = {nombre: "Ana"}
+persona.apellido = "Ruiz"
+
+let edad: number = 20
+
+
