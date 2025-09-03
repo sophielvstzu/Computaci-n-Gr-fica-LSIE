@@ -139,4 +139,4 @@ let myValue: number | string | boolean = 10;
 
 let myBoolean: Boolean = true;
 
-let healthPoints:
+
