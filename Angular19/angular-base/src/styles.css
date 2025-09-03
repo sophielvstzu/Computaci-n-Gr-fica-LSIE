@@ -1,0 +1,95 @@
+/* You can add global styles to this file, and also import other style files */
+/*Hoja de estilo global, impacta a todo el proyecto.*/
+:root {
+    /*h2*/
+    --color-h2: #ff4900;
+    --font-size-h2: 2rem;
+    /*párrafo 1*/
+    --font-size-p1: 16px;
+    --color-p1: #0093FF;
+    --font-family-p1: 'Arial';
+    /*párrafo 2*/
+    --font-size-p2: 12px;
+    --color-p2: #c500ff;
+    /*link*/
+    --color-link: #001bff;
+    --color-link-visto: #4CAF50;
+    --color-link-hover: #ff6600;
+    /*tabla*/
+    --encabezado-table: #000000;
+    --encabezado-color: #ffffff;
+    --font-size-table: 1.5rem;
+    --backgroung-color-1: #bec1c3;
+    --color-table: black;
+    --backgroung-color-2: #045795;
+    --color-1-table: black;
+    --color-2-table: white;
+
+
+}
+
+.miclase{
+    background-color: var(--color-fondos);
+} /* se aplica a la clase: class:miclase*/
+
+#miotroEstilo{
+    font-family: var(--font-family-1);
+} /*se aplica a id*/
+ 
+html,body{
+    margin: 0px;
+}
+
+h2{
+    color: var(--color-h2);
+    font-size: var(--font-size-h2);
+}
+
+.p1 {
+    font-size: var(--font-size-p1);
+    color: var(--color-p1);
+    font-family: var(--font-family-p1);
+}
+
+.p2 {
+    font-size: var(--font-size-p2);
+    color: var(--color-p2);
+    font-family: 'Nerko One';
+}
+
+a {
+   color: var(--color-link); 
+   font-weight: bold;
+   text-decoration: none;
+}
+
+a:visited {
+    color: var(--color-link-visto);
+}
+
+a:hover {
+    color: var(--color-link-hover);
+    text-decoration: underline;
+}
+
+th {
+    background-color: var(--encabezado-table);
+    color: var(--encabezado-color);
+    font-size: var(--font-size-table);
+    text-align: center;
+}
+
+td {
+    font-size: var(--font-size-table);
+
+}
+
+tr:nth-child(2), tr:nth-child(4) {
+  background-color: var(--backgroung-color-1);
+  color: var(--color-1-table);
+}
+
+tr:nth-child(3) {
+  background-color: var(--backgroung-color-2);
+  color: var(--color-2-table);
+}
