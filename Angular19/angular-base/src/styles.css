@@ -1,0 +1,24 @@
+/* You can add global styles to this file, and also import other style files */
+/*Hoja de estilo global, impacta a todo el proyecto.*/
+:root {
+    --color-fondos: #ffffff;
+    --color-primario:#c47f7f;
+    --font-family-1:'Roboto';
+    --font-size: 30;
+}
+
+.miclase{
+    background-color: var(--color-fondos);
+} /* se aplica a la clase: class:miclase*/
+
+#miotroEstilo{
+    font-family: var(--font-family-1);
+} /*se aplica a id*/
+ 
+html,body{
+    margin:0;
+    padding:0;
+    background-color: var(--color-primario);
+    color: var(--color-fondos);
+    font-size: var(--font-size);
+}
