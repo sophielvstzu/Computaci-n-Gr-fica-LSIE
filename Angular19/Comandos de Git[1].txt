@@ -1,0 +1,108 @@
+Comandos para subir un archivo a Git Hub
+
+git version
+git clone https.....
+ls -l
+cd computaci-ngr-fica-ACGC
+git status
+git checkout nombrederama
+git fetch (actualizar)
+git add nombredelarchivo.py
+git commit -m "mensaje"
+git push
+
+
+----- Para subir toda una carpeta -------
+git add .
+
+----- Para borrar -----
+
+git rm nombredelarchivo.txt
+git commit -m "mensaje"
+git push
+
+=========================================================
+
+----- Apuntes 3 de septiembre ----------------------------------------------
+
+nvm (para cambiar de versiones)
+node (entre 20 y 22 para angular 19 para no tener problemas de compatibilidad)
+nvm use
+nvm install (instalar la version que necesitamos)
+
+----- Comandos de la clase 3 de septiembre 2025 -------
+1) creamos una carpeta, abrimos Git bash y clonamos el repositorio de git hub, cambiamos a la rama de Proyecto-Angular
+2) git chackput Proyecto-Angular
+3) npm install -g @angular/cli@19 (si ya está instalada la version 19 pues ya no)
+4)ls
+npm fund ( ver verison node v22.18.0)
+ng version (ver version angular19)
+
+ng new angular-basenombreee
+CSS
+ls angular-base
+cd angular-base/ (entrar a la carpeta)
+code .ls 
+
+fin (abrimos la carpeta)
+
+
+
+
+-----
+
+notas:
+
+ng new angular-base (yo le dí yes y yes de autocompletado y de compartir (Would you like to share pseudonymous usage data about this project with the Angular Team
+at Google under Google's Privacy Policy at https://policies.google.com/privacy. For more
+details and how to change this setting, see https://angular.dev/cli/analytics.
+)
+
+ng new angular-base (para crear proyecto de angular)
+ls
+cd angular-base
+code . (esta parado en el directorio y abre estudio, sino abre estudio code, entrar a la carpeta que src) 
+
+
+
+====================--------------------
+
+ya abierta la carpeta
+
+abrir carpeta src
+en terminal de bash en vsc:
+
+ng build
+ng serve
+
+en otra terminal de vsc:
+
+ng g c ejemplo1 (creo que es para crear una carpeta en el proyecto de angular)
+
+
+===================----------------------
+
+ng build : se usa para compilar el proyecto y generar la carpeta dist/ (para desplegar en hosting).
+
+ng serve : es el que sirve para levantar el servidor local (abrir págia web)
+
+
+-----Para levantar una página web -------
+
+1- tenemos que verificar desde la terminal, que estemos en nuestron proyecto angular y en la carpeta del proyecto que estamos trabajando:
+2- verificamos que dentro de la carpeta este el archivo angular.json  con ls
+3- sino estamos nos movemos con cd 
+4- cuando ya estemos en esa carpeta ejecutamos ng serve -o 
+5- yo le dí no
+6- ctrl click y listo
+
+git clone url
+git init
+git checkout -b rama
+git add .
+git commit -m ''
+git push -u origin / git push
+git remote add origin url 
+
+
+
